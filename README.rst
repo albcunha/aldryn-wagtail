@@ -47,11 +47,11 @@ release version of this package itself.
 
 If you followed the ``aldryn-addons`` and ``aldryn-django`` installation
 instructions, you should already have a ``ALDRYN_ADDONS`` setting. Add
-``aldryn-wagtail`` to it.::
+``aldryn-wagtail-fork`` to it.::
 
     INSTALLED_ADDONS = [
         'aldryn-django',
-        'aldryn-wagtail',
+        'aldryn-wagtail-fork',
     ]
 
 Create the ``addons/aldryn-wagtail`` directory at the same level as your
